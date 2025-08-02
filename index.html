@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Panel2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <h1>Tab Panel live data structure example</h1>
+    
+    <div class="tab-interface">
+      <div class="tabs-container">
+        <button class="tab-button active" data-tab-target="tab-content-one">Tab one</button>
+        <button class="tab-button" data-tab-target="tab-content-two">Tab two</button>
+        <button class="tab-button" data-tab-target="tab-content-three">Tab three</button>
+      </div>
+
+      <div class="panels-container">
+        <div class="tab-content visible" id="tab-content-one">
+            <h2>Content for Tab One</h2>
+            <p>This is the second panel's content.</p>
+        </div>
+        
+        <div class="tab-content" id="tab-content-two">
+            <h2>Content for Tab Two</h2>
+            <p>This is the second panel's content.</p>
+        </div>
+      
+        <div class="tab-content" id="tab-content-three">
+            <h2>Content for Tab Three</h2>
+            <p>This is the second panel's content.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+</body>
+</html>
